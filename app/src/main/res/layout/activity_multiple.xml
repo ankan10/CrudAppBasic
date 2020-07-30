@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MultipleActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No.of records to enter"/>
+    <EditText
+        android:id="@+id/enterrcd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter no. of record"/>
+
+    <Button
+        android:id="@+id/sbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/multipletxt"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+
+</LinearLayout>

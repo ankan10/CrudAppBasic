@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/custmlyt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/idlaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/lineayout"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/cstlaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Customer"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/ncklaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Customer"
+                            android:textSize="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/cstidlaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Customer"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/itemidlaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Customer"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/rangelaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/itemcostlaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/itemnumberlaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/customercitylaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/statelaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/pincodlaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/datelaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/numberlaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/emaillaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/religionlaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/landmarklaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/orglaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/orgstatelaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                        <TextView
+                            android:id="@+id/orgcitylaytxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:gravity="center"
+                            android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/subheader"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+        <Button
+            android:id="@+id/update"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_white"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/delbtn"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_white"
+            android:layout_marginBottom="10dp" />
+
+
+
+
+</LinearLayout>

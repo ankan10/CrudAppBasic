@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/viewidlaytxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Customer"
+                    android:gravity="center"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lineayout"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewcstlaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Customer"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewncklaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewcstidlaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewitemidlaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewrangelaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewitemcostlaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewitemnumberlaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewcustomercitylaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewstatelaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewpincodlaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewdatelaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewnumberlaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewemaillaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewreligionlaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/viewlandmarklaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/vieworglaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/vieworgcitylaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/vieworgstatelaytxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer"
+                android:gravity="center"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/subheader"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
